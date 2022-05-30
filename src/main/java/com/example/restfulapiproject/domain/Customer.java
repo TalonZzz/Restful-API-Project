@@ -1,4 +1,4 @@
-package com.example.hibernate.code;
+package com.example.restfulapiproject.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,7 +16,6 @@ import java.util.Objects;
 @AllArgsConstructor
 public class Customer {
     @Id
-    @Column(name="id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
 

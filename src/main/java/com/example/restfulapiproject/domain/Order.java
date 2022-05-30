@@ -1,4 +1,4 @@
-package com.example.hibernate.code;
+package com.example.restfulapiproject.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
